@@ -4,7 +4,7 @@ class: nextflow
 executor_version: 23.04.1
 cwlVersion: None
 label: CNH VCF Annotation
-id: cng-vcf-annotation
+id: cnh-vcf-annotation
 requirements:
 -   class: InlineJavascriptRequirement
 -   class: ShellCommandRequirement
