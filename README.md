@@ -1,11 +1,4 @@
-# D3b RADIANT Annotation
-
-<p align="center">
-  <img src="docs/logo/d3b-inline-white.svg" alt="D3b repository logo" width="660px" />
-</p>
-<p align="center">
-  <a href="https://github.com/d3b-center/D3b-RADIANT-Annotation/blob/master/LICENSE"><img src="https://img.shields.io/github/license/d3b-center/D3b-RADIANT-Annotation.svg?style=for-the-badge"></a>
-</p>
+# CNH VCF Annotation
 
 Workflow to add various transcript and site level annotations to a DNA germline VCF. The workflow has the following framework:
  - Old annotations are stripped with bcftools

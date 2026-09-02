@@ -3,8 +3,8 @@ app_content:
 class: nextflow
 executor_version: 23.04.1
 cwlVersion: None
-label: D3b RADIANT Annotation
-id: d3b-radiant-annotation
+label: CNH VCF Annotation
+id: cnh-vcf-annotation
 requirements:
 -   class: InlineJavascriptRequirement
 -   class: ShellCommandRequirement
@@ -27,14 +27,7 @@ requirements:
           ))
 
 doc: |
-    # D3b RADIANT Annotation
-
-    <p align="center">
-    <img src="docs/logo/d3b-inline-white.svg" alt="D3b repository logo" width="660px" />
-    </p>
-    <p align="center">
-    <a href="https://github.com/d3b-center/D3b-RADIANT-Annotation/blob/master/LICENSE"><img src="https://img.shields.io/github/license/d3b-center/D3b-RADIANT-Annotation.svg?style=for-the-badge"></a>
-    </p>
+    # CNH VCF Annotation
 
     Workflow to add various transcript and site level annotations to a DNA germline VCF. The workflow has the following framework:
     - Old annotations are stripped with bcftools
@@ -620,5 +613,5 @@ $namespaces:
 - VEP
 - EXOMISER
 "sbg:links":
-- id: 'https://github.com/d3b-center/D3b-RADIANT-Annotation/releases/tag/v2.0.1'
+- id: 'https://github.com/childrens-bti/vcf-annotation/releases/tag/v1.0.0'
   label: github-release
